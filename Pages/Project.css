@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu",sans-serif;
+    box-sizing: border-box;
+  }
+  body{
+      background-color: rgb(143, 168, 194);
+      
+  
+  };
+  .first-1{
+      padding: 10px 30px;    
+      padding-left: 15px;
+      
+  
+  }
+  .image-1{
+  
+      padding: 30px 30px;    
+      padding-left: 15px;
+      background-image: url(pexels-alex-andrews-1983038.jpg);
+      padding-bottom: 10px;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      position: relative;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+      
+  }
+  
+  
+  .container{
+      background-color: rgb(9, 9, 239);
+      position: sticky;
+      padding-top: 5px;
+      padding-bottom: 0px;
+      padding-left: 10px;
+      font-weight: bolder;
+      font-size: larger;
+     
+      
+      
+  }
+  ul {
+      margin: 0 1%;
+      padding: 0px 0px 0px 0px;
+      display: flex;
+      
+  }
+  
+  ul li {
+      list-style: none;
+      padding: 10px 20px;
+  
+  }
+  
+  ul li a {
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+      color: rgb(255, 255, 255);
+      position: relative;
+  
+  }
+  
+  ul li a::before {
+      content: "";
+      width: 0px;
+      height: 5px;
+      background: rgb(255, 255, 255);
+      position: absolute;
+      top: 100%;
+      left: 100;
+      transition: .5s;
+  }
+  ul li a:hover::before {
+      width: 50%;
+      transform: translateX(100%);
+  }
+  
+#portfolio{
+    padding: 50px 0;
+    background-color: rgb(150, 107, 107);
+    padding-bottom: 20%;
+    
+}
+.sub-title{
+    color: rgb(246, 242, 242);
+    font-size: 35px;
+    padding-left: 40%;
+}
+
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:30px;
+    margin-top: 50px;
+    padding-left: 1%;
+    padding-right: 1%;
+    
+   
+}
+.layer{
+
+
+  color: white;
+  width: 100%;
+  height: 0;
+  background: linear-gradient(rgba(224, 119, 204, 0.6),#b076fb);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
+
+ 
+}
+
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    height: 300px;
+}
+.work img{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+
+}
+.work:hover img{
+    transform: scale(1.1);
+}
+
+.work:hover .layer{
+    height: 100%;
+    
+}
+
+.btn-1{
+
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid#f7f5f6;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(87, 83, 83);
+    font-weight: bolder;
+    transition: background 0.5s;
+}
+
+.btn-1:hover{
+    background: #bdabab;
+    color: black;
+}
+
+.map-container{
+    width: 100%;
+  }
+
+  .copyright{
+    background-color:black;
+    padding-bottom: 10%;
+  }
+  
+  footer{
+    color: white;
+    padding-left: 40%;
+    padding-top: 10%;
+    
+  }
+  .social-icons a {
+    color: yellow;
+    padding-left: 4%;
+    margin-right: 15px; 
+  }
+  .social-icons a i {
+    font-size: 30px; 
+  } 

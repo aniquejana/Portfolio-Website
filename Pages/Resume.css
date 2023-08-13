@@ -1,0 +1,200 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu",sans-serif;
+  box-sizing: border-box;
+}
+body{
+    background-color: rgb(249, 250, 251);
+    
+
+};
+.first-1{
+    padding: 10px 30px;    
+    padding-left: 15px;
+    
+
+}
+.image-1{
+
+    padding: 30px 30px;    
+    padding-left: 15px;
+    background-image: url(pexels-alex-andrews-1983038.jpg);
+    padding-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
+
+
+.container{
+    background-color: rgb(9, 9, 239);
+    position: sticky;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-weight: bolder;
+    font-size: larger;
+   
+    
+    
+}
+ul {
+    margin: 0 1%;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    
+}
+
+ul li {
+    list-style: none;
+    padding: 10px 20px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    position: relative;
+
+}
+
+ul li a::before {
+    content: "";
+    width: 0px;
+    height: 5px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top: 100%;
+    left: 100;
+    transition: .5s;
+}
+ul li a:hover::before {
+    width: 50%;
+    transform: translateX(100%);
+}
+
+  .Section-top{
+    background-image: url(pexels-fauxels-3183132.jpg);
+    padding-bottom: 600px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+}
+
+
+h1{
+    /*color: rgb(11, 11, 11);
+    padding-left: 42%;
+    padding-top: 50px;
+    font-size: 70px;
+    animation: effect 2s linear infinite;
+*/
+    font-size: 5em;
+    padding-top: 100px;
+    padding-left: 4%;
+    font-family: serif;
+    color: transparent;
+    text-align: center;
+    animation: effect 2s linear infinite;
+
+}
+
+@keyframes effect {
+  0% {
+      background: linear-gradient(
+          #64d764, #ebaa71);
+      -webkit-background-clip: text;
+  }
+
+  100% {
+      background: linear-gradient(
+          #47ecdb, #4a54eb);
+      -webkit-background-clip: text;
+  }
+}
+
+.gif{
+    background-image: url(pexels-fauxels-3183198.jpg);
+    padding-bottom: 300px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: chang 20s infinite ease-in-out;
+}
+
+
+
+
+.res{
+    padding-left: 44%;
+    width: 100px;
+    
+}
+.btn{
+    border: none;
+    color: rgb(17, 15, 15);
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 8px 1px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn {
+    background-color: rgb(196, 196, 230); 
+    color: black; 
+    border: 2px solid #4e614f;
+    border-radius: 5%;
+  }
+  
+  .btn:hover {
+    background-color: #7bcbee;
+    color: rgb(231, 14, 43);
+  }
+
+  .map-container{
+    width: 100%;
+  }
+
+  .copyright{
+    background-color:black;
+    padding-bottom: 10%;
+  }
+  
+  footer{
+    color: white;
+    padding-left: 40%;
+    padding-top: 10%;
+    
+  }
+  .social-icons a {
+    color: yellow;
+    padding-left: 4%;
+    margin-right: 15px; 
+  }
+  .social-icons a i {
+    font-size: 30px; 
+  } 
